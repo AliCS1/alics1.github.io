@@ -6,9 +6,19 @@
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
     <link rel="manifest" href="/manifest.json">
     <title>Title</title>
+    <script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+    </script>
   </head>
   <body>
     <h1>h1 content</h1>
     <script src="script.js"></script>
+    <script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', { scope: '/' });
+}
+</script>
   </body>
 </html>
