@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Name of app",
+    "short_name": "App 1",
+    "description": "A basic description of app",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "portrait",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
