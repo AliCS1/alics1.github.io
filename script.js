@@ -1,3 +1,3 @@
 console.log("alibu before")
-screen.orientation.lock("landscape")
+screen.orientation.lock("portrait")
 console.log("alibu after")
